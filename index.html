@@ -3,9 +3,11 @@
         <title> Project 80 </title>
         <link rel="stylesheet" type="text/css" href="style.css">
 	<script src="main.js"></script>
-    <h1> Making input boxes into a paragraph</h1>
     </head>
     <body>
+        <center>
+        <h1> Making input boxes into a paragraph</h1>
+        <div style="float: left;">
         <span> 1. </span>
         <input type="text" id="para1_input_box_1" placeholder="Input Box 1">
         <br> <br> 
@@ -24,11 +26,11 @@
         <span> 6. </span>
         <input type="text" id="para1_input_box_6" placeholder="Input Box 6">
         <br> <br>
-
-        <div id="showParagraph1" style="width: 49%;"></div>
-
         <button onclick="getParagraph1()"> Get paragraph 1 </button>
-        <div> </div>
+        </div>
+        <div style="float: right;">
+
+
         <br> <br> 
         <span> 1. </span>
         <input type="text" id="para2_input_box_1" placeholder="Input Box 1">
@@ -49,8 +51,11 @@
         <input type="text" id="para2_input_box_6" placeholder="Input Box 6">
         <br> <br>
 
-        <div id="showParagraph2" style="width: 49%;"> </div>
-
         <button onclick="getParagraph2()"> Get paragraph 2 </button>
+        </div>
+        </center>
+        <br>
+        <h1 id="showParagraph1"> </h1>
+        <h1 id="showParagraph2"></h1>
     </body>
 </html>
