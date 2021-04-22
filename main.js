@@ -19,5 +19,5 @@ function getParagraph2 () {
 
 
 
-//function join_arrays () { var join_arrays1 = [];}//
+
 
